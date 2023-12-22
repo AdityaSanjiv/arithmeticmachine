@@ -1,5 +1,3 @@
-
-
 # include <iostream>
 using namespace std;
 
@@ -21,19 +19,19 @@ int main() {
   switch(op) {
 
     case '+':
-      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      cout<<"Sum-->" << num1 << " + " << num2 << " = " << num1 + num2;
       break;
 
     case '-':
-      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      cout<<"Difference-->" << num1 << " - " << num2 << " = " << num1 - num2;
       break;
 
     case '*':
-      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      cout<<"Product-->" << num1 << " * " << num2 << " = " << num1 * num2;
       break;
 
     case '/':
-      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      cout <<"Division-->"<< num1 << " / " << num2 << " = " << num1 / num2;
       break;
 
     default:
